@@ -1,0 +1,183 @@
+.bg1{
+    background-color: rgb(230, 245, 249);
+    padding: 10px 20px;
+    box-shadow:  0px 4px 16px rgba(75, 0, 129, 0.26);  
+}
+nav {
+    padding:40px 80px; 
+}
+  
+.nav-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #6da7ba;
+    font-size: 40px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.nav-links li {
+    margin-left: 80px; 
+}
+  
+.nav-links a {
+    color: black; 
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+.nav-links a:hover {
+    color:#4A99D3;
+}
+
+.highlight-link{
+    color:#4A99D3;
+}
+footer{
+    background-color:rgb(48, 112, 136);
+}
+.end{
+    padding:16px 48px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.Logo{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px; 
+}
+.quick{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link1{
+    color:white;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subs{
+    color:white;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.links{
+    color:white;
+    font-weight: normal;
+    font-size:18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#input_id{
+    border:none;
+    width:200px;
+    height:30px;
+    border-radius: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.subsr{
+    display:flex;
+    gap:5px;
+}
+.subscribe{
+    border-radius:2px;
+    color: #4A99D3;
+    background-color:white;
+    border:none;
+    width:100px;
+    height:32px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.foot{
+    padding:12px 120px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    margin-bottom:100px;
+    
+}
+.content{
+    width:60%;
+    background-color: white;
+    box-shadow:0px 4px 16px rgba(75, 0, 129, 0.26);
+    padding:30px 40px;
+}
+.Get{
+    font-size: 20px;
+    text-decoration: underline;
+    color:#6da7ba;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Container{
+    display: flex;
+    gap:80px;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    gap:20px;
+}
+.msg{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#first-name{
+    border:none;
+    width:300px;
+}
+#email{
+    width:350px;
+    padding:12px 20px;
+}
+#textarea{
+    width:350px;
+    height:60px;
+    padding:12px 20px;
+}
+.save{
+    text-align: center;
+    border:none;
+    height:40px;
+    font-weight: bold;
+    background-color: #7ec1f0;
+    color:white;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.location{
+    display:flex;
+    gap:20px;
+    align-items: left;
+    font-size:12px;
+}
+.mapimg{
+    height:120px;
+    width:290px;
+}
